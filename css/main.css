@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background: linear-gradient(#af67e9 0%, #6565e7 100%);
+  background-repeat: no-repeat;
+  height: 150vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  color: #4a4b5e;
+  font-family: 'Kumbh Sans', sans-serif;
+  display: -ms-grid;
+  display: grid;
+  margin-bottom: 200px;
+  place-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100vw;
+}
+
+main .card {
+  background-color: #ffffff;
+  border: 3px #ffffff solid;
+  border-radius: 24px;
+  -webkit-box-shadow: 0 0 20px #4a4b5e;
+          box-shadow: 0 0 20px #4a4b5e;
+  display: -ms-grid;
+  display: grid;
+  max-width: 350px;
+  height: 100vh;
+  position: relative;
+  top: 150px;
+  z-index: 1;
+}
+
+main .card .illustrations {
+  background: url(../images/bg-pattern-mobile.svg);
+  background-position: 55% 20%;
+  background-repeat: no-repeat;
+  height: 20vh;
+}
+
+main .card .illustrations img {
+  position: relative;
+  bottom: 100px;
+  right: 10px;
+  display: block;
+  margin: auto;
+}
+
+main .card .faq {
+  position: relative;
+  bottom: 30px;
+}
+
+main .card .faq h1 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+main .card .faq__container {
+  font-size: 14px;
+  margin: 0 25px;
+}
+
+main .card .faq__container .single__faq h4 {
+  display: block;
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+main .card .faq__container .single__faq h4 button {
+  background-color: #ffffff;
+  height: 25px;
+  width: 25px;
+  border: none;
+  float: right;
+  position: relative;
+  bottom: 5px;
+}
+
+main .card .faq__container .single__faq h4 button img {
+  position: relative;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+main .card .faq__container .single__faq p {
+  display: none;
+}
+
+main .card .faq__container .active h4 {
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+main .card .faq__container .active h4 button img {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+main .card .faq__container .active p {
+  color: #787887;
+  display: block;
+  font-weight: 300;
+  position: relative;
+  margin: 20px 0;
+}
+/*# sourceMappingURL=main.css.map */
